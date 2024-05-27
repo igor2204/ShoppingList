@@ -46,8 +46,6 @@ namespace ShoppingList
             }
         }
 
-   
-
         private void buttonRemoveItem_Click(object sender, EventArgs e)
         {
             if (listBoxItems.SelectedIndex != -1)
