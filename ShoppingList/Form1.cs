@@ -157,5 +157,10 @@ namespace ShoppingList
                 return $"{Name} x{Quantity} ({Price:C})";
             }
         }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
